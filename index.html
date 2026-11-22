@@ -71,13 +71,13 @@
 
   <section class="lang" id="english" lang="en">
     <h2>English</h2>
-    <p class="meta">Effective date: 2 November 2026 · Applies to the Bloom Blocks game for Android (package <code>com.barttsy.bloomblocks</code>), published by Barttsy.</p>
+    <p class="meta">Effective date: 23 November 2026 · Applies to the Bloom Blocks game for Android (package <code>com.barttsy.bloomblocks</code>), published by Barttsy.</p>
 
     <h3>Summary</h3>
-    <p>We (the developer) do not collect your personal data and have no servers for this game. Your progress stays on your device. The game shows ads from Google AdMob, and Google's advertising software collects some device data to show and measure ads, as described below.</p>
+    <p>We (the developer) do not collect your personal data and have no servers for this game. Your progress stays on your device. The game shows ads from Google AdMob, and Google's advertising software collects some device data to show and measure ads. The game also sends anonymous gameplay statistics (for example, which levels are hard) to GameAnalytics, which you can switch off in Settings. Both are described below.</p>
 
     <h3>Information we collect</h3>
-    <p>We do not collect any information ourselves. The game has no user accounts or sign-in. It does not read your contacts, photos, precise location, camera, microphone or files.</p>
+    <p>We do not collect any personal information. The only data the game sends for us is the anonymous gameplay statistics described below. The game has no user accounts or sign-in. It does not read your contacts, photos, precise location, camera, microphone or files.</p>
 
     <h3>Information stored on your device</h3>
     <p>To keep your game, the app saves the following on your device only, in its private app storage:</p>
@@ -85,7 +85,8 @@
       <li>game progress: unlocked levels, stars and best scores;</li>
       <li>in-game coins, lives and items you have earned or unlocked, and your garden layout;</li>
       <li>the optional name you type for your garden;</li>
-      <li>settings: sound, music, vibration, language and reduced motion.</li>
+      <li>settings: sound, music, vibration, language, reduced motion and usage statistics;</li>
+      <li>a random install ID for the statistics, and how often the rating card has been shown.</li>
     </ul>
     <p>The app also reads your device's language setting, to pick the game language, and the device clock, for in-game timers. Both are used on the device only.</p>
     <p>We never receive this data. If backup is turned on for your device (Android Settings &gt; Google &gt; Backup), Android itself may include this game data in your device backup, stored in your own Google account and encrypted by Android. That way your progress comes back when you reinstall the game or move to a new phone. We cannot see or access that backup. You can turn backup off, or delete it, in your device and Google account settings. Uninstalling the app, or clearing its storage in Android settings, deletes the data on the device.</p>
@@ -104,20 +105,31 @@
     <p>This data is encrypted in transit. Google processes it under <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>; see also <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from apps that use its services</a>. We do not receive this data.</p>
     <p>Your choices: in the European Economic Area, the UK and Switzerland, the game first shows Google's consent message, and you can change your choice at any time under Settings &gt; Ad privacy options. On any Android device you can reset or delete your advertising ID, or opt out of personalized ads, in Android Settings &gt; Privacy &gt; Ads (or Google &gt; Ads). Ads in the game are limited to content suitable for general audiences.</p>
 
+    <h3>Anonymous gameplay statistics (GameAnalytics)</h3>
+    <p>To see which levels are too hard or too easy and to improve the game, the game sends anonymous gameplay events to <a href="https://gameanalytics.com" rel="noopener">GameAnalytics</a> (GameAnalytics ApS, Denmark), which processes them for us. The events are:</p>
+    <ul>
+      <li>play sessions: when a session starts and how long it lasts;</li>
+      <li>levels: started, won or lost, the score and the attempt number;</li>
+      <li>game events: a Classic game ended (with its score), a level was left, an ad was shown or watched, the rating card was shown or answered;</li>
+      <li>technical details: a random install ID created by the game, device model and manufacturer, Android version, game version, and the time of the event. GameAnalytics also receives your IP address when the data is sent and uses it to estimate the country.</li>
+    </ul>
+    <p>The statistics do not include your name, the garden name you type, your advertising ID, contacts or precise location, and we cannot use them to identify you. They are sent encrypted (HTTPS). See the <a href="https://gameanalytics.com/privacy" rel="noopener">GameAnalytics privacy policy</a>.</p>
+    <p>Your choice: switch off <strong>Settings &gt; Share usage stats</strong> at any time. The game then stops sending statistics and deletes any that were waiting to be sent. Statistics are only sent while you have a connection; the game works the same without one.</p>
+
     <h3>Sharing with third parties</h3>
-    <p>Apart from the advertising data that Google's SDK handles as described above, we do not share data with anyone. The app contains no analytics, crash-reporting or social-media SDKs.</p>
+    <p>Apart from the advertising data that Google's SDK handles and the anonymous statistics sent to GameAnalytics, both described above, we do not share data with anyone. The app contains no crash-reporting or social-media SDKs, and we never sell data.</p>
     <p>If you download the game from Google Play, Google may process information about the installation, such as download statistics and crash reports from users who chose to share them with Google, under <a href="https://policies.google.com/privacy" rel="noopener">Google's Privacy Policy</a>. We have no control over that processing.</p>
 
     <h3>Permissions</h3>
     <ul>
       <li><strong>Vibration</strong> (<code>android.permission.VIBRATE</code>): used only for short haptic feedback during play. You can turn it off in the game's settings.</li>
-      <li><strong>Internet and network state</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>): used only by Google's ad SDK to load ads. The game works without a connection; there are simply no ads then.</li>
+      <li><strong>Internet and network state</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>): used by Google's ad SDK to load ads and by the game to send the anonymous statistics. The game works without a connection; there are simply no ads then.</li>
       <li><strong>Advertising ID</strong> (<code>com.google.android.gms.permission.AD_ID</code> and Android's ad services permissions): used by Google's ad SDK for advertising, as described above.</li>
     </ul>
     <p>The app requests no other permissions.</p>
 
     <h3>Data security</h3>
-    <p>Your game data is kept in the app's private storage on your device, which Android protects from other apps. Apart from Google's ad SDK, the game sends nothing over a network, and no data is stored on our servers. We do not have any servers for this game.</p>
+    <p>Your game data is kept in the app's private storage on your device, which Android protects from other apps. Apart from Google's ad SDK and the anonymous statistics sent to GameAnalytics over HTTPS, the game sends nothing over a network, and no data is stored on our servers. We do not have any servers for this game.</p>
 
     <h3>Children's privacy</h3>
     <p>Bloom Blocks is not directed at children. We do not knowingly collect personal information from anyone, including children. Ads are limited to content rated for general audiences.</p>
@@ -131,13 +143,13 @@
 
   <section class="lang" id="turkce" lang="tr">
     <h2>Türkçe</h2>
-    <p class="meta">Yürürlük tarihi: 2 Kasım 2026 · Bu politika, Barttsy tarafından yayımlanan Android için Bloom Blocks oyununu (paket <code>com.barttsy.bloomblocks</code>) kapsar.</p>
+    <p class="meta">Yürürlük tarihi: 23 Kasım 2026 · Bu politika, Barttsy tarafından yayımlanan Android için Bloom Blocks oyununu (paket <code>com.barttsy.bloomblocks</code>) kapsar.</p>
 
     <h3>Özet</h3>
-    <p>Biz (geliştirici) kişisel verilerinizi toplamıyoruz ve bu oyun için sunucumuz yok. İlerlemeniz cihazınızda kalır. Oyun Google AdMob reklamları gösterir; Google'ın reklam yazılımı reklamları göstermek ve ölçmek için aşağıda açıklanan bazı cihaz verilerini toplar.</p>
+    <p>Biz (geliştirici) kişisel verilerinizi toplamıyoruz ve bu oyun için sunucumuz yok. İlerlemeniz cihazınızda kalır. Oyun Google AdMob reklamları gösterir; Google'ın reklam yazılımı reklamları göstermek ve ölçmek için bazı cihaz verilerini toplar. Oyun ayrıca anonim oynanış istatistiklerini (örneğin hangi seviyelerin zor olduğunu) GameAnalytics'e gönderir; bunu Ayarlar'dan kapatabilirsiniz. İkisi de aşağıda açıklanmıştır.</p>
 
     <h3>Topladığımız bilgiler</h3>
-    <p>Biz kendimiz hiçbir bilgi toplamıyoruz. Oyunda kullanıcı hesabı ya da giriş yoktur. Oyun rehberinize, fotoğraflarınıza, kesin konumunuza, kameranıza, mikrofonunuza ya da dosyalarınıza erişmez.</p>
+    <p>Hiçbir kişisel bilgi toplamıyoruz. Oyunun bizim için gönderdiği tek veri, aşağıda açıklanan anonim oynanış istatistikleridir. Oyunda kullanıcı hesabı ya da giriş yoktur. Oyun rehberinize, fotoğraflarınıza, kesin konumunuza, kameranıza, mikrofonunuza ya da dosyalarınıza erişmez.</p>
 
     <h3>Cihazınızda saklanan bilgiler</h3>
     <p>Oyununuzun kaldığı yerden devam edebilmesi için uygulama aşağıdakileri yalnızca cihazınızda, uygulamaya özel depolama alanında saklar:</p>
@@ -145,7 +157,8 @@
       <li>oyun ilerlemesi: açılan seviyeler, yıldızlar ve en iyi skorlar;</li>
       <li>kazandığınız ya da açtığınız oyun içi altınlar, canlar ve öğeler ile bahçe düzeniniz;</li>
       <li>bahçeniz için isteğe bağlı olarak yazdığınız ad;</li>
-      <li>ayarlar: ses, müzik, titreşim, dil ve hareketi azaltma.</li>
+      <li>ayarlar: ses, müzik, titreşim, dil, hareketi azaltma ve kullanım istatistiği;</li>
+      <li>istatistikler için rastgele bir kurulum kimliği ve puanlama kartının kaç kez gösterildiği.</li>
     </ul>
     <p>Uygulama ayrıca oyun dilini seçmek için cihazınızın dil ayarını, oyun içi sayaçlar için de cihaz saatini okur. İkisi de yalnızca cihazda kullanılır.</p>
     <p>Bu veriler bize hiçbir zaman ulaşmaz. Cihazınızda yedekleme açıksa (Android Ayarlar &gt; Google &gt; Yedekleme), Android bu oyun verilerini cihaz yedeğinize kendisi ekleyebilir. Yedek kendi Google hesabınızda, Android tarafından şifrelenmiş olarak saklanır. Böylece oyunu yeniden yüklediğinizde ya da yeni telefona geçtiğinizde ilerlemeniz geri gelir. Bu yedeği biz göremeyiz ve ona erişemeyiz. Yedeklemeyi cihaz ve Google hesabı ayarlarınızdan kapatabilir ya da silebilirsiniz. Uygulamayı kaldırmak ya da Android ayarlarından uygulama verilerini temizlemek cihazdaki verileri siler.</p>
@@ -164,20 +177,31 @@
     <p>Bu veriler aktarım sırasında şifrelenir. Google bunları <a href="https://policies.google.com/privacy?hl=tr" rel="noopener">Google Gizlilik Politikası</a> kapsamında işler; ayrıca bkz. <a href="https://policies.google.com/technologies/partner-sites?hl=tr" rel="noopener">Google'ın, hizmetlerini kullanan uygulamalardan gelen bilgileri nasıl kullandığı</a>. Bu veriler bize ulaşmaz.</p>
     <p>Seçimleriniz: Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de oyun önce Google'ın onay mesajını gösterir; seçiminizi istediğiniz zaman Ayarlar &gt; Reklam gizlilik seçenekleri'nden değiştirebilirsiniz. Her Android cihazda reklam kimliğinizi Android Ayarlar &gt; Gizlilik &gt; Reklamlar (ya da Google &gt; Reklamlar) bölümünden sıfırlayabilir, silebilir ya da kişiselleştirilmiş reklamları kapatabilirsiniz. Oyundaki reklamlar genel kitleye uygun içerikle sınırlıdır.</p>
 
+    <h3>Anonim oynanış istatistikleri (GameAnalytics)</h3>
+    <p>Hangi seviyelerin fazla zor ya da kolay olduğunu görmek ve oyunu geliştirmek için oyun, anonim oynanış olaylarını bizim adımıza işleyen <a href="https://gameanalytics.com" rel="noopener">GameAnalytics</a>'e (GameAnalytics ApS, Danimarka) gönderir. Gönderilen olaylar:</p>
+    <ul>
+      <li>oyun oturumları: oturumun ne zaman başladığı ve ne kadar sürdüğü;</li>
+      <li>seviyeler: başlandı, kazanıldı ya da kaybedildi, puan ve deneme sayısı;</li>
+      <li>oyun olayları: bir Klasik oyunun bitmesi (puanıyla), bir seviyeden çıkılması, bir reklamın gösterilmesi ya da izlenmesi, puanlama kartının gösterilmesi ya da yanıtlanması;</li>
+      <li>teknik bilgiler: oyunun oluşturduğu rastgele bir kurulum kimliği, cihaz modeli ve üreticisi, Android sürümü, oyun sürümü ve olayın zamanı. GameAnalytics, veriler gönderilirken IP adresinizi de alır ve ülkeyi tahmin etmek için kullanır.</li>
+    </ul>
+    <p>İstatistikler adınızı, bahçenize yazdığınız adı, reklam kimliğinizi, rehberinizi ya da kesin konumunuzu içermez; bunlarla sizi tanımlayamayız. Şifreli olarak (HTTPS) gönderilir. Ayrıntılar için <a href="https://gameanalytics.com/privacy" rel="noopener">GameAnalytics gizlilik politikası</a>na bakabilirsiniz.</p>
+    <p>Seçiminiz: <strong>Ayarlar &gt; Kullanım istatistiği paylaş</strong> seçeneğini istediğiniz zaman kapatabilirsiniz. Oyun o andan itibaren istatistik göndermez ve gönderilmeyi bekleyenleri siler. İstatistikler yalnızca bağlantı varken gönderilir; oyun bağlantı olmadan da aynı şekilde çalışır.</p>
+
     <h3>Üçüncü taraflarla paylaşım</h3>
-    <p>Google'ın SDK'sının yukarıda açıklanan reklam verileri dışında verileri hiç kimseyle paylaşmıyoruz. Uygulamada analiz, çökme raporlama ya da sosyal medya SDK'sı yoktur.</p>
+    <p>Google'ın SDK'sının işlediği reklam verileri ve GameAnalytics'e gönderilen anonim istatistikler (ikisi de yukarıda açıklandı) dışında verileri hiç kimseyle paylaşmıyoruz. Uygulamada çökme raporlama ya da sosyal medya SDK'sı yoktur ve verileri asla satmayız.</p>
     <p>Oyunu Google Play'den indirirseniz Google, kurulumla ilgili bazı bilgileri (ör. indirme istatistikleri ve Google ile paylaşmayı seçen kullanıcılardan gelen çökme raporları) kendi <a href="https://policies.google.com/privacy?hl=tr" rel="noopener">Gizlilik Politikası</a> kapsamında işleyebilir. Bu işleme üzerinde kontrolümüz yoktur.</p>
 
     <h3>İzinler</h3>
     <ul>
       <li><strong>Titreşim</strong> (<code>android.permission.VIBRATE</code>): yalnızca oyun sırasında kısa dokunsal geri bildirim için kullanılır. Oyunun ayarlarından kapatabilirsiniz.</li>
-      <li><strong>İnternet ve ağ durumu</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>): yalnızca Google'ın reklam SDK'sı reklam yüklemek için kullanır. Oyun bağlantı olmadan da çalışır; o zaman reklam çıkmaz.</li>
+      <li><strong>İnternet ve ağ durumu</strong> (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>): Google'ın reklam SDK'sı reklam yüklemek için, oyun da anonim istatistikleri göndermek için kullanır. Oyun bağlantı olmadan da çalışır; o zaman reklam çıkmaz.</li>
       <li><strong>Reklam kimliği</strong> (<code>com.google.android.gms.permission.AD_ID</code> ve Android reklam hizmetleri izinleri): yukarıda açıklandığı gibi Google'ın reklam SDK'sı tarafından reklam amacıyla kullanılır.</li>
     </ul>
     <p>Uygulama başka hiçbir izin istemez.</p>
 
     <h3>Veri güvenliği</h3>
-    <p>Oyun verileriniz cihazınızda, Android'in diğer uygulamalardan koruduğu uygulamaya özel depolama alanında tutulur. Google'ın reklam SDK'sı dışında oyun ağ üzerinden hiçbir şey göndermez ve sunucularımızda hiçbir veri saklanmaz. Bu oyun için hiçbir sunucumuz yoktur.</p>
+    <p>Oyun verileriniz cihazınızda, Android'in diğer uygulamalardan koruduğu uygulamaya özel depolama alanında tutulur. Google'ın reklam SDK'sı ve HTTPS ile GameAnalytics'e gönderilen anonim istatistikler dışında oyun ağ üzerinden hiçbir şey göndermez ve sunucularımızda hiçbir veri saklanmaz. Bu oyun için hiçbir sunucumuz yoktur.</p>
 
     <h3>Çocukların gizliliği</h3>
     <p>Bloom Blocks çocuklara yönelik değildir. Çocuklar dahil hiç kimseden bilerek kişisel bilgi toplamayız. Reklamlar genel kitleye uygun içerikle sınırlıdır.</p>
